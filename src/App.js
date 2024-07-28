@@ -1,5 +1,5 @@
 function App() {
-  return null;
+  return <div>App.js file</div>;
 
 }
 
