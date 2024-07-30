@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import "./Headr.css";
 
 const Header = () => {
   return (
@@ -65,8 +66,8 @@ const Header = () => {
         </ul>
       </header>
 
-      {/* <header style={{ backgroundColor: "red" }} className="show-when-mobile">
-        <h1>Eagle Electronics</h1>
+      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+        <h1>.*Eagle Electronics*.</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
@@ -132,7 +133,7 @@ const Header = () => {
             </ul>
           </div>
         </div>
-      </header> */}
+      </header>
     </div>
   );
 };
