@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className="hide-when-mobile">
         <h1>
-          <Link to="/">Eagle Electronics</Link>
+          <Link to="/"> .*Eagle Electronics*. </Link>
         </h1>
         <ul className="flex">
           <li className="main-list">

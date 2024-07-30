@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <footer>
-        Designed and developed by salemalgony3000@gmail.com
+        Designed and developed by salemalgony3000@gmail.com / 01222346288
         <span>🧡</span>
       </footer>
     </div>

@@ -1,11 +1,12 @@
 import Header from "../Component/header";
 import Footer from "../Component/footer";
+import MainContent from "../Component/MainContent";
 
 const Css = () => {
   return (
     <>
       <Header />
-      <main>CSS PAGE</main>
+      <MainContent pageName="CSS PAGE" />
       <Footer />
     </>
   );
