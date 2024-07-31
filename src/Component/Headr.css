@@ -1,3 +1,8 @@
+
+.myheader .salem{
+  background-color: rebeccapurple;
+}
+
 .hide-when-mobile {
   display: flex;
   justify-content: space-around;

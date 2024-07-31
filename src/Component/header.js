@@ -4,7 +4,7 @@ import "./Headr.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="myheader">
       <header className="hide-when-mobile salem">
         <h1>
           <Link to="/"> .*Eagle Electronics*. </Link>
@@ -66,7 +66,7 @@ const Header = () => {
         </ul>
       </header>
 
-      <header style={{ backgroundColor: "red" }} className="show-when-mobile">
+      <header   className="show-when-mobile">
         <h1>.*Eagle Electronics*.</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
