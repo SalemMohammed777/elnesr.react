@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="myfooter">
       <footer className="salem">
         Designed and developed by salemalgony3000@gmail.com / 01222346288
-        <span>🧡</span>
+        <span>😉</span>
       </footer>
     </div>
   );
