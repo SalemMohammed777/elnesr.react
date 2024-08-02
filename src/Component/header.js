@@ -14,7 +14,7 @@ const Header = () => {
             <NavLink className="main-link" to="/html">
               HTML
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -24,13 +24,13 @@ const Header = () => {
               <li>
                 <a href="">learn in 1h</a>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/css">
               CSS
             </NavLink>
-            {/* <ul className="sub-ul">
+            <ul className="sub-ul">
               <li>
                 <a href="">Full Course</a>
               </li>
@@ -51,22 +51,22 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-            </ul> */}
+            </ul>
           </li>
           <li className="main-list">
             <NavLink className="main-link" to="/javascript">
               JavaScript
             </NavLink>
-            {/* <ul className="sub-ul sub-of-js">
+            <ul className="sub-ul sub-of-js">
               <li>
                 <a href="">coming soon🔥</a>
               </li>
-            </ul> */}
+            </ul>
           </li>
         </ul>
       </header>
 
-      <header className="show-when-mobile">
+      <header className="show-when-mobile salem">
         <h1>.*Eagle Electronics*.</h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
@@ -80,7 +80,7 @@ const Header = () => {
             <input id="html" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/html">Full Course</NavLink>
               </li>
               <li>
                 <a href="">Crash Course</a>
@@ -97,7 +97,7 @@ const Header = () => {
             <input id="css" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">Full Course</a>
+                <NavLink to="/css">Full Course</NavLink>
               </li>
               <li>
                 <a href="">CSS Examples</a>
@@ -122,13 +122,13 @@ const Header = () => {
             </ul>
           </div>
           <div className="main-div">
-            <label htmlFor="js">
+            <label htmlFor="JavaScript">
               JavaScript <i className="fas fa-plus" />
             </label>
-            <input id="js" type="checkbox" />
+            <input id="JavaScript" type="checkbox" />
             <ul className="sub-div">
               <li>
-                <a href="">coming soon🔥</a>
+                <NavLink to="/JavaScript">coming soon🔥</NavLink>
               </li>
             </ul>
           </div>
