@@ -67,7 +67,9 @@ const Header = () => {
       </header>
 
       <header className="show-when-mobile salem">
-        <h1>.*Eagle Electronics*.</h1>
+        <h1>
+          <Link to="/"> .*Eagle Electronics*. </Link>
+        </h1>
         <label className="absolute" htmlFor="burger">
           <i className="fas fa-bars" />
         </label>
